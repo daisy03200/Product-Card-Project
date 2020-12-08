@@ -1,0 +1,92 @@
+ body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+ 
+img {
+  width: 450px;
+}
+
+.lav {
+  opacity: .4;
+  font-size: 14px;
+}
+
+.badge {
+    position: absolute;
+    right:60.5%;
+    top: 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    background: red;
+    color: #fff;
+    padding: 3px 13px;
+}
+
+.oso  {
+  display: inline-block;
+  margin-left: 5px;
+  color: red;
+  transition: 0.3s;
+  font-size: 17px;
+  
+}
+.product-price{
+  color:rgb(247,192,89);
+  font-size: 18px;
+  font-weight:600;
+}
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+.blue {
+  font-weight: bold;
+  }
+
+.pink {
+  opacity: .4;
+}
+
+.borderline{
+  opacity: .2;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  padding: 10px;
+  background:rgb(250,251,252);
+}
+
+li{
+   display: inline-block;
+  color: rgb(247,183,68);
+  
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(240,240,240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  width: 470px;
+  background: rgb(240,240,240);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 5px 30px 10px rgba(1,1,1,.10);
+}
